@@ -1,0 +1,23 @@
+version: 4.0.71
+steps:
+  - prompt: Click on the "Watch Demo" link.
+    commands:
+      - command: hover-text
+        text: Watch Demo
+        description: link to watch demo
+        action: click
+  - prompt: Assert that the demo video player loads.
+    commands:
+      - command: assert
+        expect: the demo video player is visible
+  - prompt: >-
+      Play the video and verify it's playing correctly.  # Use the content of
+      the file from the environment
+    commands:
+      - command: hover-image
+        description: play button on the video player
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: assert
+        expect: the video is playing
