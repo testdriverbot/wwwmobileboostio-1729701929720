@@ -1,0 +1,46 @@
+version: 4.0.71
+steps:
+  - prompt: Hover over client logos displayed on the homepage.
+    commands:
+      - command: hover-text
+        text: duolingo
+        description: client logo
+        action: hover
+      - command: hover-text
+        text: Medium
+        description: client logo
+        action: hover
+      - command: hover-text
+        text: hopper
+        description: client logo
+        action: hover
+      - command: hover-text
+        text: Linktree
+        description: client logo
+        action: hover
+      - command: hover-text
+        text: Wealthsimple
+        description: client logo
+        action: hover
+      - command: hover-text
+        text: PLAYTOMIC
+        description: client logo
+        action: hover
+      - command: hover-text
+        text: FREENOW
+        description: client logo
+        action: hover
+      - command: hover-text
+        text: Remitly
+        description: client logo
+        action: hover
+  - prompt: >-
+      Assert that they respond interactively  # Use the content of the file from
+      the environment
+    commands:
+      - command: hover-text
+        text: duolingo
+        description: client logo
+        action: hover
+      - command: assert
+        expect: interactive response for duolingo logo
