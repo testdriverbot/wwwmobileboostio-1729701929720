@@ -1,0 +1,82 @@
+version: 4.0.71
+steps:
+  - prompt: Scroll to the bottom of the page.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the bottom of the page.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the bottom of the page.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the bottom of the page.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the bottom of the page.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Click on each footer link.
+    commands:
+      - command: hover-text
+        text: Terms
+        description: footer link
+        action: click
+  - prompt: Click on each footer link.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+  - prompt: Click on each footer link.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+  - prompt: Click on each footer link.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+  - prompt: Click on each footer link.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+  - prompt: Click on each footer link.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+  - prompt: Click on each footer link.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+  - prompt: Click on each footer link.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+  - prompt: Click on each footer link.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
+  - prompt: Click on each footer link.
+    commands:
+      - command: hover-text
+        text: Privacy Policy
+        description: footer link
+        action: click
