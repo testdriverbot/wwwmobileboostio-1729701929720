@@ -1,0 +1,18 @@
+version: 4.0.71
+steps:
+  - prompt: Click on the "Showcases" link in the header.
+    commands:
+      - command: hover-text
+        text: Showcases
+        description: link in the header
+        action: click
+  - prompt: Assert that the showcases page loads.
+    commands:
+      - command: assert
+        expect: the showcases page is displayed with the title "Showcases"
+  - prompt: >-
+      Verify that items or examples are displayed.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: items or examples are displayed on the showcases page
