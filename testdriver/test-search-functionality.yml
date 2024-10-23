@@ -1,0 +1,23 @@
+version: 4.0.71
+steps:
+  - prompt: Locate and click on the search icon or field.
+    commands:
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search
+        action: click
+  - prompt: Enter a search query.
+    commands:
+      - command: type
+        text: AI testing tools
+  - prompt: >-
+      Assert that results related to the query are displayed.  # Use the content
+      of the file from the environment
+    commands:
+      - command: press-keys
+        keys:
+          - enter
+      - command: wait
+        timeout: 5000
+      - command: assert
+        expect: search results for AI testing tools are displayed
