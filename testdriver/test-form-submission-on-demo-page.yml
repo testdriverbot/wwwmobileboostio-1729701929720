@@ -1,0 +1,58 @@
+version: 4.0.71
+steps:
+  - prompt: Navigate to the demo booking or inquiry form.
+    commands:
+      - command: hover-text
+        text: Book a Demo
+        description: button to book a demo
+        action: click
+  - prompt: Fill out the form with test data.
+    commands:
+      - command: hover-text
+        text: 5:00pm
+        description: time slot for booking
+        action: click
+  - prompt: Fill out the form with test data.
+    commands:
+      - command: hover-text
+        text: Your name *
+        description: name field
+        action: click
+      - command: type
+        text: Test User
+      - command: hover-text
+        text: Email address *
+        description: email field
+        action: click
+      - command: type
+        text: testuser@example.com
+      - command: hover-text
+        text: Company/Project *
+        description: company field
+        action: click
+      - command: type
+        text: Test Company
+      - command: hover-text
+        text: What would you like to learn/understand in the conversation? *
+        description: conversation field
+        action: click
+      - command: type
+        text: Learn about the features
+      - command: hover-text
+        text: Additional notes
+        description: additional notes field
+        action: click
+      - command: type
+        text: No additional notes
+  - prompt: Submit the form.
+    commands:
+      - command: hover-text
+        text: Confirm
+        description: confirm button to submit the form
+        action: click
+  - prompt: >-
+      Assert that a success message or confirmation is displayed.  # Use the
+      content of the file from the environment
+    commands:
+      - command: assert
+        expect: Your booking has been submitted
