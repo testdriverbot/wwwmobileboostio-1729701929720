@@ -1,0 +1,18 @@
+version: 4.0.71
+steps:
+  - prompt: Visit the website homepage.
+    commands:
+      - command: hover-text
+        text: Home
+        description: link in the header
+        action: click
+  - prompt: Assert that the webpage loads successfully.
+    commands:
+      - command: assert
+        expect: AI-Native E2E Testing for Mobile Apps is visible on the page
+  - prompt: >-
+      Assert that the logo is displayed on the page.  # Use the content of the
+      file from the environment
+    commands:
+      - command: assert
+        expect: the logo is visible on the page
