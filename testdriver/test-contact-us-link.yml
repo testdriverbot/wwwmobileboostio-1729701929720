@@ -1,0 +1,89 @@
+version: 4.0.71
+steps:
+  - prompt: Click on the "Contact" link in the navigation.
+    commands:
+      - command: hover-text
+        text: Contact
+        description: link in the navigation
+        action: click
+  - prompt: Click on the "Contact" link in the navigation.
+    commands:
+      - command: scroll-until-text
+        text: Contact
+        direction: down
+      - command: hover-text
+        text: Contact
+        description: link in the navigation
+        action: click
+  - prompt: Click on the "Contact" link in the navigation.
+    commands:
+      - command: scroll-until-text
+        text: Contact
+        direction: down
+      - command: hover-text
+        text: Contact
+        description: link in the navigation
+        action: click
+  - prompt: Click on the "Contact" link in the navigation.
+    commands:
+      - command: scroll-until-text
+        text: Contact
+        direction: down
+      - command: hover-text
+        text: Contact
+        description: link in the navigation
+        action: click
+  - prompt: Click on the "Contact" link in the navigation.
+    commands:
+      - command: scroll-until-text
+        text: Contact
+        direction: down
+      - command: hover-text
+        text: Contact
+        description: link in the navigation
+        action: click
+  - prompt: Click on the "Contact" link in the navigation.
+    commands:
+      - command: scroll-until-text
+        text: Contact
+        direction: down
+      - command: hover-text
+        text: Contact
+        description: link in the navigation
+        action: click
+  - prompt: Click on the "Contact" link in the navigation.
+    commands:
+      - command: scroll-until-text
+        text: Contact
+        direction: down
+      - command: hover-text
+        text: Contact
+        description: link in the navigation
+        action: click
+  - prompt: Click on the "Contact" link in the navigation.
+    commands:
+      - command: scroll-until-text
+        text: Contact
+        direction: down
+      - command: hover-text
+        text: Contact
+        description: link in the navigation
+        action: click
+  - prompt: Click on the "Contact" link in the navigation.
+    commands:
+      - command: scroll-until-text
+        text: Contact
+        direction: down
+      - command: hover-text
+        text: Contact
+        description: link in the navigation
+        action: click
+  - prompt: Click on the "Contact" link in the navigation.
+    commands:
+      - command: scroll-until-text
+        text: Contact
+        direction: down
+      - command: hover-text
+        text: Contact
+        description: link in the navigation
+        action: click
