@@ -1,0 +1,121 @@
+version: 4.0.71
+steps:
+  - prompt: Use the language toggle to switch to German.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+  - prompt: Use the language toggle to switch to German.
+    commands:
+      - command: hover-text
+        text: languages
+        description: language toggle
+        action: click
+      - command: hover-text
+        text: German
+        description: select German language
+        action: click
+  - prompt: Use the language toggle to switch to German.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+      - command: hover-text
+        text: Language
+        description: language toggle
+        action: click
+      - command: hover-text
+        text: German
+        description: select German language
+        action: click
+  - prompt: Use the language toggle to switch to German.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+      - command: hover-text
+        text: Language
+        description: language toggle
+        action: click
+      - command: hover-text
+        text: German
+        description: select German language
+        action: click
+  - prompt: Use the language toggle to switch to German.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+      - command: hover-text
+        text: Language
+        description: language toggle
+        action: click
+      - command: hover-text
+        text: German
+        description: select German language
+        action: click
+  - prompt: Use the language toggle to switch to German.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+      - command: hover-text
+        text: Language
+        description: language toggle
+        action: click
+      - command: hover-text
+        text: German
+        description: select German language
+        action: click
+  - prompt: Use the language toggle to switch to German.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+      - command: hover-text
+        text: Language
+        description: language toggle
+        action: click
+      - command: hover-text
+        text: German
+        description: select German language
+        action: click
+  - prompt: Use the language toggle to switch to German.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+      - command: hover-text
+        text: Language
+        description: language toggle
+        action: click
+      - command: hover-text
+        text: German
+        description: select German language
+        action: click
+  - prompt: Use the language toggle to switch to German.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+      - command: hover-text
+        text: Language
+        description: language toggle
+        action: click
+      - command: hover-text
+        text: German
+        description: select German language
+        action: click
+  - prompt: Use the language toggle to switch to German.
+    commands:
+      - command: scroll-until-text
+        text: Language
+        direction: down
+      - command: hover-text
+        text: Language
+        description: language toggle
+        action: click
+      - command: hover-text
+        text: German
+        description: select German language
+        action: click
