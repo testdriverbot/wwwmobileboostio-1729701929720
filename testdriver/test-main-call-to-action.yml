@@ -1,0 +1,100 @@
+version: 4.0.71
+steps:
+  - prompt: Find and click on the "Book a Demo" button.
+    commands:
+      - command: hover-text
+        text: Book a Demo
+        description: button to book a demo
+        action: click
+  - prompt: Find and click on the "Book a Demo" button.
+    commands:
+      - command: scroll-until-text
+        text: Book a Demo
+        direction: down
+      - command: hover-text
+        text: Book a Demo
+        description: button to book a demo
+        action: click
+  - prompt: Find and click on the "Book a Demo" button.
+    commands:
+      - command: scroll-until-text
+        text: Book a Demo
+        direction: down
+      - command: hover-text
+        text: Book a Demo
+        description: button to book a demo
+        action: click
+  - prompt: Assert that the demo booking page or form appears.
+    commands:
+      - command: assert
+        expect: the demo booking page is visible
+  - prompt: Fill in the required fields if applicable.
+    commands:
+      - command: hover-text
+        text: Select...
+        description: dropdown to select an option
+        action: click
+  - prompt: Fill in the required fields if applicable.
+    commands:
+      - command: hover-text
+        text: Pacific/Honolulu GMT -10:00
+        description: dropdown option for timezone
+        action: click
+  - prompt: Fill in the required fields if applicable.
+    commands:
+      - command: hover-text
+        text: 8:30am
+        description: time slot for the demo
+        action: click
+  - prompt: Fill in the required fields if applicable.
+    commands:
+      - command: hover-text
+        text: Your name *
+        description: input field for your name
+        action: click
+      - command: type
+        text: John Doe
+  - prompt: Fill in the required fields if applicable.
+    commands:
+      - command: hover-text
+        text: Email address *
+        description: input field for email address
+        action: click
+      - command: type
+        text: johndoe@example.com
+  - prompt: Fill in the required fields if applicable.
+    commands:
+      - command: hover-text
+        text: Company/Project *
+        description: input field for company or project
+        action: click
+      - command: type
+        text: Example Corp
+  - prompt: Fill in the required fields if applicable.
+    commands:
+      - command: hover-text
+        text: What would you like to learn/understand in the conversation? *
+        description: input field for conversation topic
+        action: click
+      - command: type
+        text: I would like to learn more about the integration capabilities.
+  - prompt: Fill in the required fields if applicable.
+    commands:
+      - command: hover-text
+        text: Additional notes
+        description: input field for additional notes
+        action: click
+      - command: type
+        text: Please share anything that will help prepare for our meeting.
+  - prompt: >-
+      Assert that a confirmation message or indication of booking is shown.  #
+      Use the content of the file from the environment
+    commands:
+      - command: hover-text
+        text: Confirm
+        description: confirm button to book the demo
+        action: click
+      - command: wait-for-text
+        text: Booking confirmed
+      - command: assert
+        expect: a confirmation message is shown
